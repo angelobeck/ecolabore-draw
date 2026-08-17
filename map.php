@@ -1,0 +1,3 @@
+<?php
+
+setMap('root', 'draw');

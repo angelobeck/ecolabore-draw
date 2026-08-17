@@ -1,0 +1,90 @@
+<div style="display:flex">
+    <div wire:element={displayElement} style="flex-grow:1; background-color:#000; ">
+    </div>
+    <div class="controls" style="width:30vw">
+
+        <label>
+            <span>Travar</span>
+            <select onchange={handleLockChange} wire:element={lockSelect}>
+                <option value="step">Passo</option>
+                <option value="radius">Raio</option>
+                <option value="teeths">Dentes</option>
+            </select>
+        </label>
+
+        <label>
+            <span>Dentes</span>
+            <input 
+                disabled={_teethsDisabled_} 
+                onchange={handleTeethsChange}
+                type="text" 
+                value={teeths} 
+                wire:element={teethsInput} 
+            />
+        </label>
+
+        <label>
+            <span>Passo</span>
+            <input 
+                disabled={_stepDisabled_} 
+                onchange={handleStepChange}
+                type="text" 
+                value={step} 
+                wire:element={stepInput} 
+            />
+        </label>
+        
+        <label>
+            <span>Raio</span>
+            <input 
+            disabled={_radiusDisabled_} 
+            onchange={handleRadiusChange}
+            type="text" 
+            value={radius} 
+            wire:element={radiusInput} 
+            />
+        </label>
+        
+        <label>
+            <span>Profundidade</span>
+            <input 
+                type="text" 
+                onchange={handleDeepChange}
+                value={deep} 
+                wire:element={deepInput} 
+            />
+        </label>
+
+                <label>
+            <span>Folga entre os dentes</span>
+            <input 
+                onchange={handleGapChange}
+                type="text" 
+                value={gap} 
+            />
+        </label>
+
+        <label>
+            <span>Formato de dente</span>
+            <select onchange={handleFormatChange}>
+                <option value="quadratic">Hiperbólico</option>
+                <option value="rounded">Redondo</option>
+                <option value="squared">Quadrado</option>
+            </select>
+        </label>
+
+                <label>
+            <span>Diâmetro do furo central</span>
+            <input 
+                onchange={handleAxleChange}
+                type="text" 
+                value={axle} 
+            />
+        </label>
+
+                <label>
+            Saída<br />
+            <textarea wire:element={outputTextarea} style="width:100%; "></textarea>
+        </label>
+    </div>
+</div>

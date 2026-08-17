@@ -1,0 +1,6 @@
+    svg { width:100%; height:auto; }
+    .controls label { display: block; }
+    .controls label span { display: inline-block; width: 40%; }
+    .controls input { width: 30%; }
+    .controls select { width: 60%; }
+

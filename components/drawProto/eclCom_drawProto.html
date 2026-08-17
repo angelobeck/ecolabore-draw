@@ -1,0 +1,19 @@
+<style>
+    svg { width:100%; height:auto; }
+</style>
+<div style="display:flex">
+    <div wire:element={displayElement} style="flex-grow:1">
+
+    </div>
+    <div style="width:30vw">
+        <label>
+            Entrada
+            <textarea wire:element={inputTextarea} style="width:100%; "></textarea>
+        </label>
+        <button onclick={handleClick}>Compilar</button>
+        <label>
+            Saída
+            <textarea wire:element={outputTextarea} style="width:100%; "></textarea>
+        </label>
+    </div>
+</div>

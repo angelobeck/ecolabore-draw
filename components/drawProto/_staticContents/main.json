@@ -1,0 +1,18 @@
+{
+    "text": {
+        "title": {
+            "pt": {
+                "value": "Prototipagem"
+            }
+        },
+        "description": {
+            "pt": {
+                "value": "Peças para prototipagem"
+            }
+        }
+    },
+    "flags": {
+        "modNav_show": true,
+        "component": "drawProto"
+    }
+}

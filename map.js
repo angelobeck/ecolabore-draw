@@ -1,0 +1,2 @@
+
+setMap('root', 'draw');

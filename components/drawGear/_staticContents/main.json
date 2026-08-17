@@ -1,0 +1,18 @@
+{
+    "text": {
+        "title": {
+            "pt": {
+                "value": "Engrenagem"
+            }
+        },
+        "description": {
+            "pt": {
+                "value": "Desenhar engrenagens"
+            }
+        }
+    },
+    "flags": {
+        "modNav_show": true,
+        "module": "drawGear"
+    }
+}

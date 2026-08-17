@@ -1,0 +1,22 @@
+{
+    "text": {
+        "title": {
+            "pt": {
+                "value": "Desenhos da Mashenka"
+            }
+        },
+        "label": {
+            "pt": {
+                "value": "Início"
+            }
+        },
+        "description": {
+            "pt": {
+                "value": "Permite compilar um desenho com variáveis"
+            }
+        }
+    },
+    "flags": {
+        "modNav_show": true
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "text": {
+        "title": {
+            "pt": {
+                "value": "Apresentação"
+            }
+        },
+        "description": {
+            "pt": {
+                "value": "Apresentação interativa de slides"
+            }
+        }
+    },
+    "flags": {
+        "modList_show": true,
+        "module": "drawSlide"
+    }
+}
